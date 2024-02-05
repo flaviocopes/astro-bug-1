@@ -1,0 +1,9 @@
+---
+const { slug } = Astro.params
+---
+
+<p>[...slug].astro</p>
+
+<p>
+  {slug ? 'Slug: ' + slug : 'should see index instead?'}
+</p>
